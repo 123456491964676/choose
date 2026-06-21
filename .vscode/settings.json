@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.csv": "csv",
+    "*.tsv": "tsv"
+  },
+  "rainbow_csv.enable_auto_csv_lint": true
+}

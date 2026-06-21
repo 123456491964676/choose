@@ -1,0 +1,136 @@
+批量运行 pool 脚本
+====================================================================================================
+日期区间: 2026-04-01 ~ 2026-04-30
+交易日数量: 21
+脚本: pool02.py
+基准文件: data/_benchmark_000300.csv
+数据目录: data
+输出目录: output
+日志目录: logs
+days: 30
+universe_source: local
+statuses: 强趋势池,趋势观察池
+动态卖出: 开启
+min_hold_days: 3
+exit_sell_timing: next_open
+stop_loss: -0.06
+trailing_start: 0.12
+trailing_drawdown: 0.07
+keep_progress: False
+====================================================================================================
+
+开始运行: 2026-04-01
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-01 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-01.txt
+完成: 2026-04-01, 状态: success, 退出码: 0, 耗时: 1分17秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-02
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-02 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-02.txt
+完成: 2026-04-02, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-03
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-03 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-03.txt
+完成: 2026-04-03, 状态: success, 退出码: 0, 耗时: 1分15秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-07
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-07 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-07.txt
+完成: 2026-04-07, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-08
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-08 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-08.txt
+完成: 2026-04-08, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-09
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-09 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-09.txt
+完成: 2026-04-09, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-10
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-10 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-10.txt
+完成: 2026-04-10, 状态: success, 退出码: 0, 耗时: 1分15秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-13
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-13 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-13.txt
+完成: 2026-04-13, 状态: success, 退出码: 0, 耗时: 1分17秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-14
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-14 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-14.txt
+完成: 2026-04-14, 状态: success, 退出码: 0, 耗时: 1分17秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-15
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-15 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-15.txt
+完成: 2026-04-15, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-16
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-16 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-16.txt
+完成: 2026-04-16, 状态: success, 退出码: 0, 耗时: 1分17秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-17
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-17 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-17.txt
+完成: 2026-04-17, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-20
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-20 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-20.txt
+完成: 2026-04-20, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-21
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-21 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-21.txt
+完成: 2026-04-21, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-22
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-22 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-22.txt
+完成: 2026-04-22, 状态: success, 退出码: 0, 耗时: 1分17秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-23
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-23 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-23.txt
+完成: 2026-04-23, 状态: success, 退出码: 0, 耗时: 1分17秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-24
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-24 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-24.txt
+完成: 2026-04-24, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-27
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-27 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-27.txt
+完成: 2026-04-27, 状态: success, 退出码: 0, 耗时: 1分16秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-28
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-28 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-28.txt
+完成: 2026-04-28, 状态: success, 退出码: 0, 耗时: 1分17秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-29
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-29 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-29.txt
+完成: 2026-04-29, 状态: success, 退出码: 0, 耗时: 1分24秒
+----------------------------------------------------------------------------------------------------
+开始运行: 2026-04-30
+命令: /home/codespace/.python/current/bin/python pool02.py --date 2026-04-30 --days 30 --universe-source local --output-dir output --cache-dir data --min-bars 130 --min-score 75 --min-amount 80000000 --buy-price-field open --stop-loss -0.06 --trailing-start 0.12 --trailing-drawdown 0.07 --min-hold-days 3 --exit-sell-timing next_open --statuses 强趋势池,趋势观察池
+日志: logs/pool_2026-04-30.txt
+完成: 2026-04-30, 状态: success, 退出码: 0, 耗时: 1分29秒
+----------------------------------------------------------------------------------------------------
+
+====================================================================================================
+批量运行结束
+总耗时: 27分12秒
+成功: 21
+失败: 0
+跳过: 0
+DryRun: 0
+汇总CSV: logs/batch_summary_2026-04-01_to_2026-04-30.csv
+====================================================================================================
